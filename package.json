@@ -1,0 +1,27 @@
+{
+  "name": "angular-requirejs-ready",
+  "version": "0.0.0",
+  "description": "Starter app structure for projects using AngularJS + RequireJS",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:glepretre/angular-requirejs-ready.git"
+  },
+  "authors": [
+    "Gilles Lepretre <gilles.lepretre@lim.eu>",
+    "Julien Sanchez <julien.sanchez@lim.eu>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "e2e": "scripts/e2e-tests.sh",
+    "start": "scripts/web-server.js",
+    "unit": "scripts/unit-tests.sh"
+  },
+  "devDependencies": {
+    "karma": "0.x",
+    "karma-firefox-launcher": "0.x",
+    "phantomjs": "1.9.x",
+    "protractor": "0.x",
+    "requirejs": "2.x"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "angular-requirejs-ready",
+  "version": "0.0.0",
+  "authors": [
+    "Gilles Lepretre <gilles.lepretre@lim.eu>",
+    "Julien Sanchez <julien.sanchez@lim.eu>"
+  ],
+  "description": "Starter app structure for projects using AngularJS + RequireJS",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "config",
+    "e2e",
+    "node_modules",
+    "proto",
+    "scripts"
+  ],
+  "dependencies": {
+    "angular": "~1.2.13",
+    "requirejs": "~2.1.11",
+    "requirejs-text": "~2.0.10"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.13"
+  }
+}
