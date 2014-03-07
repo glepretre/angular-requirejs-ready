@@ -1,4 +1,4 @@
-define(['app/components/greeting/greeting-directive', 'angularMocks'], function() {
+define(['app/components/greeting/greeting-directive'], function() {
   describe('greeting', function() {
     var $scope,
         $element;
