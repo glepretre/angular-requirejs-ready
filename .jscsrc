@@ -1,24 +1,29 @@
 {
-    "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
-    "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
-    "requireSpaceBeforeBinaryOperators": ["?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
-    "requireSpaceAfterBinaryOperators": [",", "?", "+", "-", "/", "*", ":", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
     "disallowImplicitTypeConversion": ["string"],
     "disallowKeywords": ["with"],
-    "disallowMultipleLineBreaks": true,
     "disallowMixedSpacesAndTabs": true,
-    "disallowSpaceBeforeBinaryOperators": [","],
+    "disallowMultipleLineBreaks": true,
     "disallowSpaceAfterPrefixUnaryOperators": ["!"],
-    "disallowTrailingWhitespace": true,
-    "requireLineFeedAtFileEnd": true,
-    "excludeFiles": [],
-    "requireBlocksOnNewline": true,
-    "requireKeywordsOnNewLine": ["else"],
-    "requireSpacesInFunctionExpression": {
-        "beforeOpeningCurlyBrace": true
-    },
+    "disallowSpaceBeforeBinaryOperators": [","],
     "disallowSpacesInFunctionExpression": {
         "beforeOpeningRoundBrace": true
+    },
+    "disallowTrailingWhitespace": true,
+    "excludeFiles": [],
+    "maximumLineLength": {
+        "allowUrlComments": true,
+        "value": 80
+    },
+    "requireBlocksOnNewline": true,
+    "requireCurlyBraces": ["if", "else", "for", "while", "do", "try", "catch"],
+    "requireKeywordsOnNewLine": ["else"],
+    "requireLineFeedAtFileEnd": true,
+    "requireSpaceAfterBinaryOperators": [",", "?", "+", "-", "/", "*", ":", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+    "requireSpaceAfterKeywords": ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
+    "requireSpaceBeforeBinaryOperators": ["?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
+    "requireSpacesInConditionalExpression": true,
+    "requireSpacesInFunctionExpression": {
+        "beforeOpeningCurlyBrace": true
     },
     "validateJSDoc": {
         "checkParamNames": true,
