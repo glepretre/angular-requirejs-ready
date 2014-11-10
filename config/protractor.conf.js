@@ -7,8 +7,7 @@ exports.config = {
 
   multiCapabilities: [
     {'browserName': 'firefox'},
-    {'browserName': 'chrome'},
-    {'browserName': 'phantomjs'}
+    {'browserName': 'chrome'}
   ],
 
   baseUrl: 'http://localhost:8000',
