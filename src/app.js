@@ -1,3 +1,3 @@
-define(['app/components/greeting/greeting-directive'], function() {
+define(['app/components/greeting'], function() {
   'use strict';
 });

@@ -1,4 +1,4 @@
-define(['app/components/greeting/greeting-directive'], function() {
+define(['app/components/greeting'], function() {
   describe('greeting', function() {
     var $scope,
         $element;
