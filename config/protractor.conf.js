@@ -14,8 +14,6 @@ exports.config = {
   baseUrl: 'http://localhost:8000',
 
   jasmineNodeOpts: {
-    showColors: true,
-    isVerbose: true,
-    includeStackTrace: true
+    isVerbose: true
   }
 };
