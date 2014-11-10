@@ -7,17 +7,17 @@ require(['/base/config/require.conf.js'], function() {
     baseUrl: '/base/src',
 
     paths: {
-      'angularMocks': '../bower_components/angular-mocks/angular-mocks'
+      'angular-mocks': '../bower_components/angular-mocks/angular-mocks'
     },
 
     shim: {
-      'angularMocks': {
+      'angular-mocks': {
         deps: ['angular']
       }
     }
   });
 
-  require(['angularMocks'], function() {
+  require(['angular-mocks'], function() {
 
     var specFiles = [];
     for (var file in window.__karma__.files) {
