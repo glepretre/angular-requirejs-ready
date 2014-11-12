@@ -14,7 +14,6 @@
     "config",
     "e2e",
     "node_modules",
-    "proto",
     "scripts"
   ],
   "dependencies": {
