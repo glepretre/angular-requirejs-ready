@@ -4,8 +4,9 @@ define([
 ], function(angular) {
   'use strict';
 
-  var e2e = angular.module('e2e', ['app']);
-
-  e2e.controller('e2eCtrl', [function() {
-  }]);
+  /*
+   * Create mock e2e module depending on 'app'
+   * to mock a shell environment for testing purpose
+   */
+  angular.module('e2e', ['app']);
 });
