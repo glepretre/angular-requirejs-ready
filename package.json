@@ -1,6 +1,6 @@
 {
   "name": "angular-requirejs-ready",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Starter app structure for projects using AngularJS + RequireJS",
   "repository": {
     "type": "git",
