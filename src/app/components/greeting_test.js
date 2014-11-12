@@ -1,4 +1,8 @@
-define(['app/components/greeting'], function() {
+define([
+  'app/components/greeting'
+], function() {
+  'use strict';
+
   describe('greeting', function() {
     var $scope,
         $element;
@@ -11,10 +15,8 @@ define(['app/components/greeting'], function() {
       $scope.$digest();
     }));
 
-    it("should display Hello World", function() {
+    it('should display "Hello World!"', function() {
       expect($element.find('h1').text()).toEqual('Hello World!');
     });
-
   });
 });
-
