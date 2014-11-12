@@ -9,6 +9,6 @@ define([
     return {
       restrict: 'E',
       template: greetingTemplate
-    }
+    };
   }]);
 });
