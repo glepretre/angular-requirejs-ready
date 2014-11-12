@@ -1,5 +1,6 @@
 ({
   mainConfigFile: './require.conf.js',
+  name:'app',
   out: '../dist/app.js',
   exclude: [
     /*
