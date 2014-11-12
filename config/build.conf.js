@@ -5,7 +5,12 @@
     {
       name: 'app',
       exclude: [
-        //'text'
+        /*
+         * https://groups.google.com/forum/#!msg/requirejs/jiaDogbA1EQ/jKrHL0gs21UJ
+         * text plugin is evaluated by r.js
+         * required for building but useless into build
+         */
+        'text'
       ]
     }
   ],
@@ -14,4 +19,8 @@
   paths: {
     'angular': 'empty:'
   }
+  /*
+   * DO NOT USE STUBMODULES OPTION EXCEPTED FOR APPCACHE BUILDS.
+   * stubModules: ['text']
+   */
 })
