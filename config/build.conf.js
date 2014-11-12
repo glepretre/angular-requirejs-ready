@@ -1,18 +1,13 @@
 ({
   mainConfigFile: './require.conf.js',
-  dir: '../dist',
-  modules: [
-    {
-      name: 'app',
-      exclude: [
-        /*
-         * https://groups.google.com/forum/#!msg/requirejs/jiaDogbA1EQ/jKrHL0gs21UJ
-         * text plugin is evaluated by r.js
-         * required for building but useless into build
-         */
-        'text'
-      ]
-    }
+  out: '../dist/app.js',
+  exclude: [
+    /*
+     * https://groups.google.com/forum/#!msg/requirejs/jiaDogbA1EQ/jKrHL0gs21UJ
+     * text plugin is evaluated by r.js
+     * required for building but useless into build
+     */
+    'text'
   ],
   optimize: 'none',
   useStrict: true,
