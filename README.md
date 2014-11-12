@@ -31,7 +31,7 @@ or if you're feeling lazy
 
 ###2. Open browser and go to:
 
-[http://localhost:8000/proto/index.html](http://localhost:8000/proto/index.html)
+[http://localhost:8000/e2e/index.html](http://localhost:8000/e2e/index.html)
 
 ## Run tests
 -----------
